@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start Screen -->
+    <div class="startscreen" >
+        <h1>Welcome to the Word Guessing Game!</h1><br>
+        <br>
+        <div class="rules"><h6>Instructions:</h6>
+            <ul>
+            <li> know the number of letters in the word to be guessed</li>
+            <li> type one letter at a time.</li>
+            <li> guess the word within the chances</li>
+            <li> don't repeat the letter that has been entered or wrong</li>
+            <li> find the word within the number of guesses</li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <button class="startbtn">Start Game</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div class="gamearea">
+        <h1>GUESS THE WORD!</h1>
+        <div class="content">
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs"></div>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="guess">Remaining guesses: <span></span></p>
+                <p class="wrong">Wrong letters: <span></span></p>
+            </div>
+            <div class="keyboard">
+                <button>q</button><button>w</button><button>e</button><button>r</button>
+                <button>t</button><button>y</button><button>u</button><button>i</button>
+                <button>o</button><button>p</button><button>a</button><button>s</button>
+                <button>d</button><button>f</button><button>g</button><button>h</button>
+                <button>j</button><button>k</button><button>l</button><button>z</button>
+                <button>x</button><button>c</button><button>v</button><button>b</button>
+                <button>n</button><button>m</button>
+              </div><br><br>
+            <button class="resetbtn">Reset Game</button>
+        </div>
+    </div>
+
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
