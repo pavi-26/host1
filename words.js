@@ -44,8 +44,8 @@ const wordList = [
         hint: "epic science fiction film"
     },
     {
-        word: "gif",
-        hint: "a file format for image"
+        word: "meeting",
+        hint: "Event in which people come together"
     },
     {
         word: "peace",
@@ -191,8 +191,8 @@ const wordList = [
         word: "nile",
         hint: "largest river in the world"
     },
-    {
-        word: "rain",
-        hint: "related to a water"
+   {
+        word: "expert",
+        hint: "Person with extensive knowledge"
     },
 ]
